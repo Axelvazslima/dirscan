@@ -7,6 +7,6 @@ func Setup() string {
 	fmt.Println("If the alias already exists, it will not be added again.")
 	fmt.Println("The alias is 'godirscan' and it will run the dirscan program.")
 	fmt.Println("The programm will look for a specific file your file system going from where you are to its children.")
-	fmt.Println("The code must be on your home directory, ~.")
+	fmt.Println("For now, the code must be on your home directory, ~.")
 	return addAlias()
 }
