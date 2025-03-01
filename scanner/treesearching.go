@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func BFS(path string, fileName string) []string {
+func TreeSearching(path string, fileName string) []string {
 	queue := []string{path}
 	var output []string
 

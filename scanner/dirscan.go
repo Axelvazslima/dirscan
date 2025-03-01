@@ -1,8 +1,11 @@
 package scanner
 
-import ()
+import "os"
 
 func DirScan(fileName string) []string {
-
-	return []string{}
+	curDir, err := os.Getwd()
+	if err != nil {
+		return []string{"Error getting current directory:" + err.Error()}
+	}
+	return TreeSearching(curDir, fileName)
 }
