@@ -15,8 +15,7 @@ func main() {
 		return
 	} else if argsAmount > 2 {
 		fmt.Println("It will only look for the first file name provided.")
-		return
 	}
 	fileToFind := argsWithProg[1]
-	scanner.DirScan(fileToFind)
+	fmt.Println(scanner.DirScan(fileToFind))
 }
