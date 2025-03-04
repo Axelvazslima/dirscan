@@ -1,10 +1,12 @@
 # DirScan
 
+<p align="center"><em>On-going</em></p>
+
 DirScan scans your current directory and its subdirectories for a specific file name. It performs a case-insensitive search and displays not only the path to the desired file but also files with similar names.
 
 ## Installation
 
-Clone the repository:
+Clone the repository in your home directory, ~:
 
 ```sh
 git clone https://github.com/Axelvazslima/dirscan
